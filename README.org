@@ -1,0 +1,8 @@
+* Details
+Installs OpenVPN silently, creates whitelists for OVPN on the firewall, and finally adds all users in the "USERS" group to the "OpenVPN Administrators" group.
+The OpenVPN Administrators group lets non-admin users connect to the VPN
+
+* Usage
+#+begin_src shell
+./script.ps1
+#+end_src
